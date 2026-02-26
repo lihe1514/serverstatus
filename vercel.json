@@ -1,0 +1,28 @@
+{
+  "rewrites": [
+    {
+      "source": "/report",
+      "destination": "http://185.228.138.99:8080/report"
+    },
+    {
+      "source": "/json/stats.json",
+      "destination": "http://185.228.138.99:8080/json/stats.json"
+    },
+    {
+      "source": "/detail",
+      "destination": "http://185.228.138.99:8080/detail"
+    },
+    {
+      "source": "/map",
+      "destination": "http://185.228.138.99:8080/map"
+    },
+    {
+      "source": "/i",
+      "destination": "http://185.228.138.99:8080/i"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
